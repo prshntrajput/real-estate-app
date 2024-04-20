@@ -5,8 +5,11 @@ import { SignedOut, SignIn, SignInButton, UserButton } from '@clerk/nextjs'
 const Provider = ({children}) => {
   return (
     <div>
+      <Header/>
+      <div className='mt-32'>
       {children}
-      <Header/>    
+      </div>
+          
     </div>
   )
 }
