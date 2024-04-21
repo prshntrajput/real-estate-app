@@ -6,7 +6,7 @@ const Provider = ({children}) => {
   return (
     <div>
       <Header/>
-      <div className='mt-32'>
+      <div className='mt-28'>
       {children}
       </div>
           

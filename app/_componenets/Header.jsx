@@ -24,7 +24,7 @@ const Header = () => {
         </div>
 
         <div className='flex gap-2'>
-            <Button className="bg-purple-800 flex gap-1"> <Plus className='h-5 w-5'/> Post your Ad</Button>
+            <Link href={'/add-new-listing'}><Button className="bg-purple-800 flex gap-1"> <Plus className='h-5 w-5'/> Post your Ad</Button></Link>
             {isSignedIn ? <UserButton/> : 
             <Link href={"/sign-in"}>
             <Button variant="outline">Login</Button></Link>}
